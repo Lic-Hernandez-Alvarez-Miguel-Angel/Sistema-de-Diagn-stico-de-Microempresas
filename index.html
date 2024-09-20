@@ -11,30 +11,28 @@
 <body>
 
 <!-- Pantalla de Login -->
-<div class="container vh-100 d-flex justify-content-center align-items-center">
-    <div class="card text-center shadow-lg" id="loginCard">
+<div class="container" id="loginCard">
+    <div class="card text-center shadow-lg">
         <div class="card-header bg-success text-white">
             <h4>¡Bienvenido!</h4>
         </div>
         <div class="card-body">
-            <div class="mb-4">
-                <img src="images.jpeg" alt="Logo" width="80">
-            </div>
             <form id="loginForm">
-                <div class="form-group mb-3">
-                    <input type="text" class="form-control" id="username" placeholder="Nombre de usuario o email" required>
+                <div class=" mb-3">
+                    <input type="text" class="form-control" id="username" placeholder="Username or Email" required>
                 </div>
-                <div class="form-group mb-3">
-                    <input type="password" class="form-control" id="password" placeholder="Contraseña" required>
+                <div class=" mb-3">
+                    <input type="password" class="form-control" id="password" placeholder="Password" required>
                 </div>
-                <button type="submit" class="btn btn-success w-100">Iniciar sesión</button>
+                <button type="submit" class="btn btn-success w-100">Iniciar Sesión</button>
             </form>
         </div>
         <div class="card-footer text-muted">
-            <a href="#">¿Olvidaste tu contraseña?</a>
+            ¿Olvidaste tu contraseña? <a href="#">Recupérala aquí</a>
         </div>
     </div>
 </div>
+
 
 <!-- Pantalla de Árbol de Decisiones (oculta por defecto) -->
 <div class="container d-flex justify-content-center mt-5">

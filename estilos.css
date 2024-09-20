@@ -1,0 +1,73 @@
+/* Estilo del body para la pantalla de login y árbol */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea el contenido hacia arriba */
+}
+
+/* Aseguramos que el contenedor de login y árbol tenga una altura completa de la pantalla */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilos generales de las tarjetas */
+.card {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Oculta los elementos por defecto */
+.hidden {
+    display: none;
+}
+
+/* Estilos para la pantalla del árbol de decisiones */
+#decisionTreeCard {
+    padding: 20px;
+}
+
+/* Estilo de la pregunta del árbol de decisiones */
+#question {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Botones de opciones */
+.option {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover en los botones */
+.option:hover {
+    background-color: #218838;
+}
+
+/* Botón de reinicio */
+#restart {
+    display: none;
+    margin-top: 20px;
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#restart:hover {
+    background-color: #e0a800;
+}
